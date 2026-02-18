@@ -14,7 +14,7 @@
     .post-bg { background: #111827; }
   </style>
 
-  <!-- Google Analytics -->
+  <!-- Google Analytics - replace G-XXXXXXXXXX -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -25,8 +25,22 @@
 </head>
 <body class="bg-zinc-950 text-white min-h-screen">
 
+  <!-- Navbar -->
   <nav class="fixed top-0 w-full bg-zinc-950/90 backdrop-blur-md border-b border-zinc-800 z-50">
-    <!-- same navbar -->
+    <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="logo.png" alt="SideHustleNaija Logo" class="w-9 h-9 rounded-full">
+        <span class="text-2xl font-bold tracking-tight">SideHustle<span class="text-emerald-500">Naija</span></span>
+      </div>
+      <div class="hidden md:flex items-center gap-8 text-sm">
+        <a href="index.html#hustles" class="hover:text-emerald-500 transition">Hustles</a>
+        <a href="index.html#blog" class="hover:text-emerald-500 transition">Blog</a>
+        <a href="index.html#contact" class="hover:text-emerald-500 transition">Contact</a>
+      </div>
+      <a href="index.html#blog" class="bg-emerald-500 hover:bg-emerald-600 text-black px-6 py-3 rounded-2xl font-semibold flex items-center gap-2 transition">
+        Back to Blog <i class="fas fa-arrow-left ml-1"></i>
+      </a>
+    </div>
   </nav>
 
   <article class="post-bg pt-32 pb-24">
@@ -35,7 +49,7 @@
       <h1 class="text-5xl font-bold mb-6">Top 7 Freelance Skills Paying Nigerians $500–$2000/month on Upwork</h1>
       <p class="text-xl text-zinc-400 mb-10">No degree needed. Real stories from Lagos freelancers crushing it in 2026 with AI-enhanced skills. Based on Upwork's latest data.</p>
       
-      <img src="https://picsum.photos/id/106/600/400" alt="Freelance Skills in Nigeria" class="w-full rounded-3xl mb-10">
+      <img src="https://picsum.photos/id/106/1200/600" alt="Freelance Skills in Nigeria" class="w-full rounded-3xl mb-10">
       
       <h2 class="text-3xl font-bold mb-4">Why Freelancing is Booming for Nigerians in 2026</h2>
       <p class="text-zinc-300 mb-6">With dollar rates high and remote work exploding, Nigerians are earning big on Upwork. Skills like full-stack dev and AI content are up 109% YoY. No office, no boss – just your laptop and WiFi. Here's the top 7 paying $500+ monthly.</p>
@@ -107,9 +121,32 @@
     </div>
   </article>
 
-  <!-- Footer -->
+  <!-- Newsletter Footer (now added here) -->
   <footer class="bg-black py-16 border-t border-zinc-800">
-    <!-- your footer code -->
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <div class="mb-12">
+        <h3 class="text-3xl font-bold mb-4">Stay Updated on New Hustles</h3>
+        <p class="text-zinc-400 mb-6 max-w-xl mx-auto">
+          Get fresh side hustle ideas, tips, and opportunities straight to your inbox. Join 100+ Naija hustlers already winning.
+        </p>
+        
+        <div class="max-w-md mx-auto">
+          <a 
+            href="https://forms.gle/GdMu7DCZZpkE7nmy8" 
+            target="_blank"
+            class="block bg-emerald-500 hover:bg-emerald-600 text-black px-10 py-4 rounded-2xl font-semibold text-lg transition flex items-center justify-center gap-3 shadow-lg"
+          >
+            Join Newsletter Now <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <p class="text-xs text-zinc-500 mt-4">Click to sign up • We respect your privacy. Powered by Google Forms.</p>
+      </div>
+
+      <div class="text-zinc-500 text-sm">
+        © 2026 SideHustleNaija.com • Made with ❤️ for Naija hustlers<br>
+        All rights reserved. Let’s get this money!
+      </div>
+    </div>
   </footer>
 
   <!-- Back to Top -->
